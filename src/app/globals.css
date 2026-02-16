@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* ── MITRION Design System ── */
+
+/* Custom properties */
+:root {
+  --background: #0A0A0A;
+  --foreground: #EAEAEA;
+  --muted-foreground: #8A8A8A;
+  --catalyst: #E27B58;
+  --surface: #141414;
+  --border: #1E1E1E;
+}
+
+/* Theme */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-catalyst: var(--catalyst);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --font-institution: var(--font-institution);
+}
+
+/* Global styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-mono), monospace;
+}
+
+/* Substrate grid background */
+.bg-substrate-grid {
+  background-color: var(--background);
+  background-image:
+    linear-gradient(rgba(234, 234, 234, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 234, 234, 0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+/* Breathe animation for status dot */
+@keyframes breathe {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+/* Catalyst glow line — breathing divider */
+@keyframes glow-line {
+
+  0%,
+  100% {
+    opacity: 0.3;
+    box-shadow: 0 0 8px rgba(226, 123, 88, 0.1);
+  }
+
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 20px rgba(226, 123, 88, 0.25);
+  }
+}
+
+.animate-glow-line {
+  animation: glow-line 4s ease-in-out infinite;
+}
+
+/* Fade in up — entrance animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-600 {
+  animation-delay: 0.6s;
+}
+
+.animate-delay-800 {
+  animation-delay: 0.8s;
+}
+
+.animate-delay-1000 {
+  animation-delay: 1.0s;
+}
+
+/* Sharp corners — no border-radius anywhere */
+* {
+  border-radius: 0 !important;
+}
