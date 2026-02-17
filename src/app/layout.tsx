@@ -14,6 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mitrion.xyz"),
   title: "MITRION",
   description: "The substrate of intelligent capital",
   openGraph: {

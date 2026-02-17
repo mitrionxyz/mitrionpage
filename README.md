@@ -25,8 +25,8 @@ This landing page serves as the initial brand statement while the core platform 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mitrionxyz/mitrion-landing.git
-   cd mitrion-landing
+   git clone https://github.com/mitrionxyz/mitrionpage.git
+   cd mitrionpage
    ```
 
 2. Install dependencies:
