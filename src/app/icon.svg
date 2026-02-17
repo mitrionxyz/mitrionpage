@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Dark background circle specifically for favicon visibility on light tabs -->
+  <circle cx="256" cy="256" r="256" fill="#0A0A0A"/>
+  
+  <!-- Content scaled down slightly to fit in circle -->
+  <g transform="scale(0.75) translate(85, 85)">
+    <!-- Thicker strokes for small icon sizes (favicon) -->
+    <g stroke="#EAEAEA" stroke-opacity="1" stroke-width="32" fill="none">
+      <polygon points="256,176 325.3,216 325.3,296 256,336 186.7,296 186.7,216"/>
+      <polygon points="256,96 325.3,136 325.3,216 256,256 186.7,216 186.7,136"/>
+      <polygon points="325.3,136 394.6,176 394.6,256 325.3,296 256,256 256,176"/>
+      <polygon points="325.3,216 394.6,256 394.6,336 325.3,376 256,336 256,256"/>
+      <polygon points="256,256 325.3,296 325.3,376 256,416 186.7,376 186.7,296"/>
+      <polygon points="186.7,216 256,256 256,336 186.7,376 117.4,336 117.4,256"/>
+      <polygon points="186.7,136 256,176 256,256 186.7,296 117.4,256 117.4,176"/>
+    </g>
+
+    <!-- Larger nodes for visibility -->
+    <circle cx="325.3" cy="256" r="24" fill="#E27B58"/>
+    <circle cx="186.7" cy="176" r="20" fill="#E27B58"/>
+  </g>
+</svg>
