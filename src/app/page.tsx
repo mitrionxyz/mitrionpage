@@ -3,16 +3,16 @@ import { ArrowUpRight, Github } from "lucide-react";
 
 const pillars = [
   {
-    label: "Research",
-    description: "Execution-layer intelligence for onchain capital",
+    label: "The Kernel",
+    description: "Safety and execution infrastructure for autonomous capital",
   },
   {
-    label: "Market Making",
-    description: "Precision liquidity infrastructure on orderbook DEXes",
+    label: "Lighter Native",
+    description: "Deep integration for high-performance orderbook trading",
   },
   {
-    label: "Agents",
-    description: "Autonomous strategies that engineer capital efficiency",
+    label: "Agent Engine",
+    description: "Create, backtest, and deploy autonomous strategies",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function LandingPage() {
           <div className="mb-8 animate-fade-in-up animate-delay-800">
             <div className="inline-flex items-center gap-2 border border-catalyst/15 bg-surface/50 px-5 py-2.5 text-sm text-muted-foreground backdrop-blur-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-catalyst animate-breathe" />
-              Building in private
+              Building the Substrate
             </div>
           </div>
 
