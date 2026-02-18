@@ -48,8 +48,11 @@ export default function LandingPage() {
           </h1>
 
           {/* Tagline */}
-          <p className="mb-12 font-[var(--font-institution)] text-lg tracking-wide text-muted-foreground sm:text-xl animate-fade-in-up animate-delay-200">
-            The substrate of intelligent capital
+          <p className="mb-3 font-[var(--font-institution)] text-lg tracking-wide text-foreground sm:text-xl animate-fade-in-up animate-delay-200">
+            The operating system for onchain agents
+          </p>
+          <p className="mb-12 text-sm tracking-wide text-muted-foreground animate-fade-in-up animate-delay-300">
+            Create, test, deploy and invest
           </p>
 
           {/* Glowing catalyst divider */}
@@ -75,7 +78,7 @@ export default function LandingPage() {
           <div className="mb-8 animate-fade-in-up animate-delay-800">
             <div className="inline-flex items-center gap-2 border border-catalyst/15 bg-surface/50 px-5 py-2.5 text-sm text-muted-foreground backdrop-blur-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-catalyst animate-breathe" />
-              Building the Substrate
+              Building in Public
             </div>
           </div>
 
