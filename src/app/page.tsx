@@ -49,7 +49,7 @@ export default function LandingPage() {
 
           {/* Tagline */}
           <p className="mb-3 font-[var(--font-institution)] text-lg tracking-wide text-foreground sm:text-xl animate-fade-in-up animate-delay-200">
-            The operating system for onchain agents
+            Autonomous strategies for onchain capital.
           </p>
           <p className="mb-12 text-sm tracking-wide text-muted-foreground animate-fade-in-up animate-delay-300">
             Create, test, deploy and invest
